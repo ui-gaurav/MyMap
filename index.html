@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Custom Google Map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="module" src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRnXxxzrvX429ryU8I2Kn-AmcQ3hOuxes&libraries=places"
+        async defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Let's go to My World</h1>
+        <input id="pac-input" type="text" placeholder="Search for places...">
+    </header>
+
+    <gmp-map center="26.230267, 78.207172" zoom="13" map-id="52aa07374b52e7dc99f27a56">
+    </gmp-map>
+
+</body>
+
+</html>

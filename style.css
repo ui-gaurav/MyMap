@@ -1,0 +1,114 @@
+html {
+  box-sizing: border-box;
+
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #d8d8b6;
+
+  margin: 0;
+
+  padding: 0;
+}
+
+header {
+  background-color: #535434;
+}
+
+h1 {
+  background-color: #535434;
+
+  bottom: 200px;
+
+  color: white;
+
+  font-family: "Press Start 2P", system-ui;
+
+  font-weight: 400;
+
+  font-style: normal;
+
+  height: 10%;
+
+  padding: 20px;
+}
+
+h1,
+#pac-input {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+#pac-input {
+  float: right;
+
+  margin-top: 15px;
+
+  margin-right: 100px;
+
+  background-color: #d2d2cc;
+}
+
+#pac-input {
+  background-color: #fff;
+
+  font-family: "Segoe UI", Roboto, sans-serif;
+
+  font-size: 15px;
+
+  font-weight: 300;
+
+  padding: 12px 20px;
+
+  text-overflow: ellipsis;
+
+  width: 350px;
+
+  border: 1px solid #dfe1e5;
+
+  border-radius: 24px;
+
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+
+  outline: none;
+
+  transition: box-shadow 0.3s;
+}
+
+.pac-container {
+  z-index: 9999 !important; /* Ensures the dropdown appears above the map */
+
+  font-family: sans-serif;
+}
+
+#pac-input:focus {
+  box-shadow: 0 4px 12px rgba(32, 33, 36, 0.35);
+
+  border: 1px solid transparent;
+}
+
+gmp-map {
+  height: 70vh;
+
+  width: 100vw;
+
+  border-color: coral;
+
+  border-style: ridge;
+}
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
